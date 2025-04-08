@@ -1,6 +1,6 @@
 param (
-    [string]$resourceGroupName = "COLLAB-T-EUW-RG01",
-    [string]$vmName = "COLLABSARBOK"
+    [string]$resourceGroupName = "collab",
+    [string]$vmName = "collab-t-vm"
 )
 
 # Authenticate using Managed Identity
